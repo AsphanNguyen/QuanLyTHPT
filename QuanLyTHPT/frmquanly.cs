@@ -19,7 +19,7 @@ namespace QuanLyTHPT
     {
         string TaiKhoan;
         string maloai, matk,con,tk; //tk là username
-        string DATASOURCE = @"localhost";
+        string DATASOURCE = @"LAPTOP-GFK5C0EF\SQLEXPRESS";
         public frmquanly(string MaLoaitk,string MaTK,string username)
         {
             maloai = MaLoaitk; 
@@ -1539,20 +1539,6 @@ namespace QuanLyTHPT
 
         }
 
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
         //tab Diem Danh
         public string mahs_dd = "";
         private void data_diemdanh_dsdiemdanh_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -1619,5 +1605,7 @@ namespace QuanLyTHPT
                 MessageBox.Show("Lưu thất bại", "Thông báo");
             }
         }
+
+        //Long cu đen ngày mai đi học sớm nha
     }
 }
